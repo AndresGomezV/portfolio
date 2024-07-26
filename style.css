@@ -1,0 +1,89 @@
+#skills {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 20px;
+    text-align: center;
+}
+
+.skill i {
+    font-size: 48px;
+    color: #333; /* Color por defecto */
+    transition: color 0.3s ease; /* Transición suave para cambios de color */
+}
+
+.skill:hover i {
+    color: #007bff; /* Color cuando se pasa el ratón sobre el icono */
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skill a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Colores específicos para iconos */
+.fa-html5 {
+    color: #E34F26; /* Color HTML5 */
+}
+
+.fa-css3-alt {
+    color: #1572B6; /* Color CSS3 */
+}
+
+.fa-js {
+    color: #F7DF1E; /* Color JavaScript */
+}
+
+.fa-node-js {
+    color: #68A063; /* Color Node.js */
+}
+
+.fa-react {
+    color: #61DAFB; /* Color React */
+}
+
+.fa-github {
+    color: #333; /* Color GitHub */
+}
+
+.fa-git-alt {
+    color: #F1502F; /* Color Git */
+}
+
+.fa-code {
+    color: #007ACC; /* Color Visual Studio Code */
+}
+
+.fa-terminal {
+    color: #4E9A06; /* Color Command Line */
+}
+
+.fa-envelope {
+    color: #D44638; /* Color Email */
+}
+
+.fa-phone {
+    color: #28A745; /* Color Phone */
+}
+
+.fa-whatsapp {
+    color: #25D366; /* Color WhatsApp */
+}
+
+.fa-linkedin {
+    color: #0077B5; /* Color LinkedIn */
+}
