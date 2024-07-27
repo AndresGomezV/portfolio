@@ -1,6 +1,108 @@
+html {
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    background-color: #000000;
+    /* color fondo doc */
+}
+/* color texto doc */
+body { 
+    color: white;
+    font-family: monospace;
+}
+
+#nav-bar {
+    background-color: #484848;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+.navigation-items {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-family: monospace;
+}
+
+.navigation-item:last-child {
+    margin-right: 10px;
+    
+}
+
+#about-me {
+    padding: 50px;
+    
+}
+
+.about-me-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.about-me-text-container {
+    font-size: 24px;
+    align-content: center;
+}
+
+#about-me img {
+    width: 20rem;
+    height: auto;
+    max-width: 100%;
+    /* contain hace que la imagen no se alargue en ventanas pequeñas */
+    object-fit: contain; 
+    margin: 10px;
+    padding: 10px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.projects-container img {
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+#projects h2 {
+
+    font-size: 36px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    
+}
+
 #skills {
     text-align: center;
     padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 36px;
 }
 
 .skills-container {
@@ -15,24 +117,12 @@
 }
 
 .skill i {
-    font-size: 48px;
-    color: #333; /* Color por defecto */
+    font-size: 48px;    
     transition: color 0.3s ease; /* Transición suave para cambios de color */
 }
 
 .skill:hover i {
-    color: #007bff; /* Color cuando se pasa el ratón sobre el icono */
-}
-
-.skill p {
-    margin-top: 10px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.skill a {
-    text-decoration: none;
-    color: inherit;
+    color: #333; /* Color cuando se pasa el ratón sobre el icono */
 }
 
 /* Colores específicos para iconos */
@@ -57,7 +147,7 @@
 }
 
 .fa-github {
-    color: #333; /* Color GitHub */
+    color: #ffffff; /* Color GitHub */
 }
 
 .fa-git-alt {
@@ -87,3 +177,40 @@
 .fa-linkedin {
     color: #0077B5; /* Color LinkedIn */
 }
+
+.contacto:hover i {
+    color: #333; /* Cambia el color en hover para los iconos de contacto */
+}
+
+
+.fab.fa-chrome {
+  background: linear-gradient(to right, #f44242,#3363ff, #34a853, #fbbc05) ; /* Gradiente de colores */
+  -webkit-background-clip: text; /* Usa el gradiente como fondo del texto */
+  color: transparent; 
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contacto i {
+    font-size: 48px;    
+    transition: color 0.3s ease;
+}
+
+.contacto {
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center; /* Centra los iconos horizontalmente */
+    align-items: center; /* Alinea los iconos verticalmente */
+    gap: 15px; /* Espacio entre los iconos, ajusta según tus preferencias */
+  }
+
+  #contact h2 {
+    text-align: center;
+  }
