@@ -13,3 +13,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     toggleButton.addEventListener('click', toggleProjects);
 });
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const augmentSkills = document.getElementById('augment-skills');
+    const skillsList = document.getElementById('skills-list');
+
+    function aumentSkills () {
+        if (skillsList.style.fontSize === '48px') {
+            skillsList.style.fontSize = '72px';
+        } else {
+            skillsList.style.fontSize = '48px';
+        }
+    }
+    augmentSkills.addEventListener('click', aumentSkills);
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const skills = document.getElementsByClassName('skill');
+
+    for (let i = 0; i <skills.length; i++) {
+        skills[i].addEventListener('mouseover', function(){
+            this.style.fontSize = '100px';
+        });
+    }
+
+});
+

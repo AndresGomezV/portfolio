@@ -113,15 +113,17 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
 .skill {
     margin: 20px;
     text-align: center;
+    font-size: 48px;
 }
 
 .skill i {
-    font-size: 48px;    
+        
     transition: color 0.3s ease; /* Transición suave para cambios de color */
 }
 
@@ -237,6 +239,28 @@ body {
 }
 
 #toggle-projects:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#augment-skills {
+    background-color: #333; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+
+#augment-skills:hover {
     background-color: #ffffff;
     color: #000000;
 }
