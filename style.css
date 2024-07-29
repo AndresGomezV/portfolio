@@ -73,9 +73,10 @@ body {
 }
 
 .projects-container {
-    display: flex;
+    display: block;
     justify-content: space-around;
     text-align: center;
+    
 }
 
 .projects-container img {
@@ -109,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .skill {
@@ -184,9 +186,7 @@ body {
 
 
 .fab.fa-chrome {
-  background: linear-gradient(to right, #f44242,#3363ff, #34a853, #fbbc05) ; /* Gradiente de colores */
-  -webkit-background-clip: text; /* Usa el gradiente como fondo del texto */
-  color: transparent; 
+  color: #ffffff;
 }
 
 .contact-container {
